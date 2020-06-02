@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.statistics {
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: rgb(184, 187, 189) 3px solid;
+  width: 270px;
+  height: auto;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.stat_list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.item span {
+  margin: 5px;
+}
